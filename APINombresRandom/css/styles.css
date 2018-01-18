@@ -1,0 +1,52 @@
+
+html body{
+	width: 100%;
+	margin: 0;
+	background-color: #d6dbd7;
+}
+
+header{
+	background-color: #d6dbd7;
+}
+
+.text-center{
+	padding: 1%;
+	margin: 0 20% 5% 20%;
+	border-bottom: 1px solid #1f1209;
+	box-shadow: 0 20px 20px -20px #333;
+}
+
+.descripcion{
+	color: #859385;
+}
+
+#contenedor{
+	background-color: #e4e7e4;
+	padding: 10% 5% 10% 5%;
+	text-align: center;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#contenedorForm{
+	padding: 10px 80px 5% 80px;
+	text-align: center;
+}
+
+#contenedorImgP li{
+text-align: center;
+list-style-type: none;
+font-weight: bold;
+font-size: 1.2em;
+}
+
+
+#texto{
+	text-align: center;
+}
+
+select{
+
+text-align-last: center; 
+padding-right: 29px;
+
+}

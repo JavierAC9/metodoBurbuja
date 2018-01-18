@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+	
+<head>
+	
+	<meta charset="utf-8">
+	<title>Nombres Random</title>
+	<meta name="description" content="API AJAX Javier Álvarez Chavarría">
+	<link rel="stylesheet"  href="css/styles.css">
+	<link rel="icon" type="image/png" href="img/randomIcono.ico" />
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<script src="js/jquery-3.1.1.min.js"></script>
+	<script src="js/nombresRandom.js"></script>
+
+	
+</head>
+
+<body>
+
+<header class="text-center"><h1>Generación aleatoria de nombres </h1></header>
+
+<div  id="contenedorForm" class="col-md-6">
+<center>
+<h1></h1>
+	<form id="formulario" onsubmit="return NombresRandom()">
+		<label><h3>Digite un país </h3></label>
+		<input type="text" name="texto"  id="texto" required class="form-control input-lg focus">
+		<label><h3>Seleccione el género </h3></label>
+		<select id="gender" class="form-control input-lg">
+			<option value="random" class="gender">Aleatorio</option>
+  			<option value="male" class="gender">Masculino</option>
+  			<option value="female" class="gender">Femenino</option>
+  		</select>
+  		<br><br>
+		<input type="submit" name="boton" value="Mostrar" class="btn btn-primary btn-lg">
+		<input type="reset" name="boton" value="Borrar" class="btn btn-primary btn-lg">
+	</form>
+	</center>
+	
+	
+	
+</div>
+
+<div id="contenedorImgP" class="col-md-6">
+	</div>
+	 	
+</body>
+
+</html>
